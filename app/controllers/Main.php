@@ -2,12 +2,11 @@
 
 namespace app\controllers;
 
-use vendor\core\base\Controller;
-
 class Main extends App
 {
     public function indexAction()
     {
-
+        $name = 'www';
+        $this->set(compact('name'));
     }
 }
