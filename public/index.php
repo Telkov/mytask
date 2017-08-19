@@ -14,7 +14,6 @@ define('LAYOUT', 'default');
 
 require '../vendor/libs/functions.php';
 
-
 /**
  * Ф-ия автозагрузки классов
  */
@@ -31,7 +30,5 @@ Router::add('^page/(?P<alias>[a-z-]+)$', ['controller' => 'Page', 'action'=>'vie
 //defaults routes
 Router::add('^$', ['controller' => 'Main', 'action' =>'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$'); //создает именованный ключ
-
-
 
 Router::dispatch($query);

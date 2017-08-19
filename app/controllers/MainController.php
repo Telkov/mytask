@@ -15,4 +15,12 @@ class MainController extends AppController
 
         $this->set(compact('res'));
     }
+
+    public function newAction()
+    {
+        $DB = new Main();
+        $DB->connect();
+
+
+    }
 }

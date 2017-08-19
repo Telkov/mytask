@@ -2,6 +2,10 @@ body{
     background-color: #c6c8ca;
 }
 
+.content{
+    margin-top: 5%;
+}
+
 td, th{
     width: 300px;
 }
@@ -11,10 +15,31 @@ td, th{
     max-height: 35px;
     margin-left: 5px;
 }
+
 .login-btn{
     max-height: 35px;
     margin-left: 5px;
 }
+
 .nav-link{
     min-width: 85px;
+}
+
+.task-action{
+    border: 0;
+    background-color: #c6c8ca;
+    padding: 0;
+    margin: 0;
+}
+
+.task-container{
+    margin-top: 40px;
+}
+
+.task-table__center{
+    text-align: center;
+}
+
+.task-status{
+    color: #1e7e34;
 }
