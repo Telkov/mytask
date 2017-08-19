@@ -7,6 +7,7 @@
     <title>DEFAULT</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -22,7 +23,7 @@
     <div class="collapse navbar-collapse" id="nav-content">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">New Task</a>
@@ -32,7 +33,7 @@
             <form class="form-inline">
                 <input type="text" class="form-control login-input" name="login">
                 <input type="text" class="form-control pass-input" name="password">
-                <input type="submit" class="btn btn-secondary" value="Sign In">
+                <input type="submit" class="btn btn-secondary login-btn" value="Sign In">
             </form>
         </div>
 

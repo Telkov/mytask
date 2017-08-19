@@ -2,13 +2,13 @@
 
 namespace app\controllers;
 
-use app\models;
+use app\models\Main;
 
-class MainController extends App
+class MainController extends AppController
 {
     public function indexAction()
     {
-        $DB = new models\DB();
+        $DB = new Main();
         $DB->connect();
 
         $res = $DB->get_rows("SELECT * FROM forTest");

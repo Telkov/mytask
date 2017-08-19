@@ -1,15 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Alejandro
- * Date: 19.08.2017
- * Time: 11:45
- */
 
-namespace models;
+namespace app\models;
 
+use vendor\core\base\DB;
 
-class Main
+class Main extends DB
 {
 
 }

@@ -1,3 +1,20 @@
+body{
+    background-color: #c6c8ca;
+}
+
 td, th{
     width: 300px;
+}
+
+.login-input, .pass-input{
+    max-width: 120px;
+    max-height: 35px;
+    margin-left: 5px;
+}
+.login-btn{
+    max-height: 35px;
+    margin-left: 5px;
+}
+.nav-link{
+    min-width: 85px;
 }
